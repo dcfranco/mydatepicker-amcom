@@ -1,0 +1,23 @@
+{
+  "name": "mydatepicker-amcom",
+  "description": "Angular date picker",
+  "main": "bundles/mydatepicker.umd.js",
+  "authors": [
+    "kekeh / dcfranco"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Angular",
+    "typescript",
+    "date",
+    "picker"
+  ],
+  "homepage": "https://github.com/dcfranco/mydatepicker",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
