@@ -3,6 +3,7 @@ import { NG_VALUE_ACCESSOR } from "@angular/forms";
 import { LocaleService } from "./services/my-date-picker.locale.service";
 import { UtilService } from "./services/my-date-picker.util.service";
 import * as moment from 'moment';
+import 'moment/min/locales';
 export var MYDP_VALUE_ACCESSOR = {
     provide: NG_VALUE_ACCESSOR,
     useExisting: forwardRef(function () { return MyDatePicker; }),

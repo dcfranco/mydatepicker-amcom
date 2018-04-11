@@ -3,6 +3,7 @@ import { ControlValueAccessor } from "@angular/forms";
 import { IMyDate, IMyMonth, IMyCalendarMonth, IMyCalendarYear, IMyWeek, IMyOptions, IMyDateModel, IMyInputFieldChanged, IMyCalendarViewChanged, IMyInputFocusBlur } from "./interfaces/index";
 import { LocaleService } from "./services/my-date-picker.locale.service";
 import { UtilService } from "./services/my-date-picker.util.service";
+import 'moment/min/locales';
 export declare const MYDP_VALUE_ACCESSOR: any;
 export declare class MyDatePicker implements OnChanges, ControlValueAccessor, OnDestroy {
     elem: ElementRef;

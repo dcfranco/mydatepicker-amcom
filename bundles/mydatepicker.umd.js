@@ -1,8 +1,8 @@
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/forms'), require('moment'), require('@angular/common')) :
-	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/forms', 'moment', '@angular/common'], factory) :
-	(factory((global.mydatepicker = global.mydatepicker || {}),global.ng.core,global.ng.forms,global.moment,global.ng.common));
-}(this, (function (exports,_angular_core,_angular_forms,moment,_angular_common) { 'use strict';
+	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/forms'), require('moment'), require('moment/min/locales'), require('@angular/common')) :
+	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/forms', 'moment', 'moment/min/locales', '@angular/common'], factory) :
+	(factory((global.mydatepicker = global.mydatepicker || {}),global.ng.core,global.ng.forms,global.moment,null,global.ng.common));
+}(this, (function (exports,_angular_core,_angular_forms,moment,moment_min_locales,_angular_common) { 'use strict';
 
 moment = 'default' in moment ? moment['default'] : moment;
 
