@@ -1208,7 +1208,7 @@ var MyDatePicker = (function () {
             jsdate: this.getDate(date.year, date.month, date.day),
             formatted: this.utilService.formatDate(date, this.opts.dateFormat, this.opts.monthLabels),
             epoc: Math.round(this.getTimeInMilliseconds(date) / 1000.0),
-            moment: moment({ year: date.year, month: date.month, day: date.day })
+            moment: moment({ year: date.year, month: date.month - 1, day: date.day })
         };
     };
     MyDatePicker.prototype.monthText = function (m) {
